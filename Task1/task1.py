@@ -1,3 +1,4 @@
+# Імпортуємо з модуля Сolorama функцію init та клас Fore для виділення відповіді кольором
 from colorama import init, Fore
 init (autoreset=True)
 # Оголошення функції caching_fibonacci
