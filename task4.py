@@ -1,3 +1,9 @@
+from collections import UserDict
+
+class Field:
+    def __init__(self, value):
+        self.value = value
+    
 # Створюємо декоратор для обробки помилок вводу
 def input_error(func):
 
